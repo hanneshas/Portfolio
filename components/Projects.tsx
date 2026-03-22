@@ -36,9 +36,6 @@ function BrowserWindow({
       className="w-[680px] lg:w-[780px] xl:w-[860px]"
       style={{
         scale: smoothScale,
-        filter: smoothShadow.get
-          ? undefined
-          : undefined,
       }}
     >
       <motion.div
